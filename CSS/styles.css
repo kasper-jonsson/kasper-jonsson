@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding:0;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  max-width:100%;
+  height:auto;
+  display: flex;
+  padding-right: -10px;
+  margin-left: -30px;
+}
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+header {
+  background-color: #535044;
+  font-size: 2.5vw;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-bottom: 4px solid white;
+}
+.menu {
+  width: 25vw;
+  display: flex;
+  float:right;
+  justify-content: space-between;
+  padding-bottom: 2px;
+}
+body {
+  background-color: #d6d2c0;  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 20px;
+  }
+  ol {
+    list-style-position: inside;
+  }
+  .profilbillede {
+    max-width:35%;
+    height:auto;
+  }
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+  .billedehøjre {
+    float:right;
+  }
+  .billedevenstre {
+    float: left;
+  }
+  .gifs {
+    width: 400px;
+    height: 300px;
+  }
+  a:link {
+    text-decoration: none;
+    color:white
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:white
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color:white
+  }
+  
+  a:active {
+    text-decoration: none;
+    color:white
+  }
+
+  .maintext{
+    float: right;
+    padding-top: 50px;
+
+  }
