@@ -1,101 +1,118 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+  margin: 0;
+  padding:0;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  max-width:80%;
+  height:auto;
+  display: flex;
+}
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+header {
+  background-color: #535044;
+  font-size: 2.5vw;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-bottom: 4px solid white;
+}
+header {
+  background-color: #535044;
+  font-size: 2.5vw;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-bottom: 10px solid #d6d2c0;
+}
+.menu {
+  width: 25vw;
+  display: flex;
+  float:right;
+  justify-content: space-between;
+  padding-bottom: 2px;
+}
+body {
+  background-color: white;  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
-  .container{
-    margin: 20px auto;
-    width:400px;
-    height:400px;
-    display:grid;
-    grid-template-columns: 200px 200px;
-    grid-row: auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    padding:2%;
+    color: #535044;
   }
-    .box{
-      background-color:#333;
-      padding:20px;
-      border-radius:10px;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      font-size:40px;
-      font-family:sans-serif;
-    }
-  
-  header {
-    background-color: #535044;
-    font-size: 2.5vw;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    border-bottom: 4px solid white;
+  h2 {
+    font-size: 25px;
+    color: #535044;
   }
-  .menu {
-    width: 25vw;
-    display: flex;
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  ol {
+    list-style-position: inside;
+  }
+  .profilbillede {
+    max-width:35%;
+    height:auto;
+  }
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+  .billedehøjre {
     float:right;
-    justify-content: space-between;
-    padding-bottom: 2px;
   }
-  body {
-    background-color: #d6d2c0;  
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    }
-    h1 {
-      font-size: 40px;
-    }
-    h2 {
-      font-size: 35px;
-    }
-    p {
-      font-size: 20px;
-    }
-    ol {
-      list-style-position: inside;
-    }
-    .profilbillede {
-      max-width:35%;
-      height:auto;
-    }
-    .logo {
-      max-width: 100%;
-      height: auto;
-    }
-    .billedehøjre {
-      float:right;
-    }
-    .billedevenstre {
-      float: left;
-    }
-    .gifs {
-      width: 400px;
-      height: 300px;
-    }
-    a:link {
-      text-decoration: none;
-      color:white
-    }
-    
-    a:visited {
-      text-decoration: none;
-      color:white
-    }
-    
-    a:hover {
-      text-decoration: none;
-      color:white
-    }
-    
-    a:active {
-      text-decoration: none;
-      color:white
-    }
+  .billedevenstre {
+    float: left;
+  }
+  .gifs {
+    width: 400px;
+    height: 300px;
+  }
+  a:link {
+    text-decoration: none;
+    color:white
+  }
   
-    .maintext{
-      float: right;
-      padding-top: 50px;
+  a:visited {
+    text-decoration: none;
+    color:white
+  }
   
-    }
+  a:hover {
+    text-decoration: none;
+    color:white
+  }
+  
+  a:active {
+    text-decoration: none;
+    color:white
+  }
+
+  .maintext {
+    padding-left: 5%;
+    color: black;
+  }
+
+  .links {
+    color: blue;
+    text-decoration: underline;
+  }

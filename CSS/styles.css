@@ -6,20 +6,19 @@
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
+  padding-bottom: 0px;
 }
 .grid-item {
   padding: 20px;
   font-size: 30px;
-  text-align: center;
+  text-align: left;
 }
 .item1 {
   grid-row-start: 1;
   grid-row-end: 4;
-  max-width:100%;
+  max-width:80%;
   height:auto;
   display: flex;
-  padding-right: -10px;
-  margin-left: -30px;
 }
 .item2 {
   grid-column-start: 2;
@@ -34,6 +33,15 @@ header {
   padding-bottom: 20px;
   border-bottom: 4px solid white;
 }
+header {
+  background-color: #535044;
+  font-size: 2.5vw;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-bottom: 10px solid #d6d2c0;
+}
 .menu {
   width: 25vw;
   display: flex;
@@ -42,17 +50,22 @@ header {
   padding-bottom: 2px;
 }
 body {
-  background-color: #d6d2c0;  
+  background-color: white;  
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
   h1 {
     font-size: 40px;
+    text-align: center;
+    padding:2%;
+    color: #535044;
   }
   h2 {
-    font-size: 35px;
+    font-size: 25px;
+    color: #535044;
   }
   p {
     font-size: 20px;
+    line-height: 1.5;
   }
   ol {
     list-style-position: inside;

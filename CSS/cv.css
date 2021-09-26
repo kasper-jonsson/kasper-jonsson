@@ -1,100 +1,120 @@
 *{
-    margin: 0;
-    padding:0;
+  margin: 0;
+  padding:0;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.grid-item {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.item1 {
+  background-color: black;
+}
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+header {
+  background-color: #535044;
+  font-size: 2.5vw;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-bottom: 4px solid white;
+}
+header {
+  background-color: #535044;
+  font-size: 2.5vw;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-bottom: 10px solid #d6d2c0;
+}
+.menu {
+  width: 25vw;
+  display: flex;
+  float:right;
+  justify-content: space-between;
+  padding-bottom: 2px;
+}
+body {
+  background-color: white;  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-  }
-  .grid-item {
-    padding: 20px;
-    font-size: 30px;
+  h1 {
+    font-size: 40px;
     text-align: center;
+    padding:2%;
+    color: #535044;
   }
-  .item1 {
-    max-width:75%;
+  h2 {
+    font-size: 25px;
+    color: #535044;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: italic;
+  }
+  ol {
+    list-style-position: inside;
+  }
+  .profilbillede {
+    max-width:35%;
     height:auto;
   }
-  .item2 {
-    max-width:75%;
-    height:auto;
+  .logo {
+    max-width: 100%;
+    height: auto;
   }
-  header {
-    background-color: #535044;
-    font-size: 2.5vw;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    border-bottom: 4px solid white;
-  }
-  .menu {
-    width: 25vw;
-    display: flex;
+  .billedehøjre {
     float:right;
-    justify-content: space-between;
-    padding-bottom: 2px;
   }
-  body {
-    background-color: #d6d2c0;  
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    }
-    h1 {
-      font-size: 40px;
-      text-align: center;
-      padding:2%;
-    }
-    h2 {
-      font-size: 25px;
-    }
-    p {
-      font-size: 20px;
-      text-align: left;
-    }
-    ol {
-      list-style-position: inside;
-    }
-    .profilbillede {
-      max-width:35%;
-      height:auto;
-    }
-    .logo {
-      max-width: 100%;
-      height: auto;
-    }
-    .billedehøjre {
-      float:right;
-    }
-    .billedevenstre {
-      float: left;
-    }
-    .gifs {
-      width: 400px;
-      height: 300px;
-    }
-    a:link {
-      text-decoration: none;
-      color:white
-    }
-    
-    a:visited {
-      text-decoration: none;
-      color:white
-    }
-    
-    a:hover {
-      text-decoration: none;
-      color:white
-    }
-    
-    a:active {
-      text-decoration: none;
-      color:white
-    }
+  .billedevenstre {
+    float: left;
+  }
+  .gifs {
+    width: 400px;
+    height: 300px;
+  }
+  a:link {
+    text-decoration: none;
+    color:white
+  }
   
-    .maintext{
-      float: right;
-      padding-top: 50px;
+  a:visited {
+    text-decoration: none;
+    color:white
+  }
   
-    }
+  a:hover {
+    text-decoration: none;
+    color:white
+  }
+  
+  a:active {
+    text-decoration: none;
+    color:white
+  }
+
+  .maintext {
+    padding-left: 5%;
+    color: black;
+  }
+
+  .linkcolor {
+    color: black;
+  }
