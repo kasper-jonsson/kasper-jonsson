@@ -37,66 +37,71 @@ header {
 
 body {
   background-color: white;  
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
 h1 {
-  font-size: 40px;
+  font-size: 45px;
   text-align: center;
   padding:2%;
   color: #535044;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 30px;
   color: #535044;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
 }
 p {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.5;
   font-style: italic;
 }
 
 a:link {
   text-decoration: none;
-  color:white
+  color:white;
+  font-style: normal;
 }
   
 a:visited {
   text-decoration: none;
-  color:white
+  color:white;
+  font-style: normal;
 }
   
 a:hover {
   text-decoration: none;
-  color:white
+  color:white;
+  font-style: normal;
 }
   
 a:active {
   text-decoration: none;
-  color:white
+  color:white;
+  font-style: normal;
 }
 
 .maintext {
   font-style: italic;
 }
 
-.linkcolor {
-  color: black;
-}
-
 footer {
   text-align: center;
   background-color: #535044;
   color: white;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.5;
   padding: 20px;
   margin-top: 20px;
+  border-top: 10px solid #d6d2c0;
+}
+
+.footerlink {
   font-style: italic;
+  text-decoration: underline;
 }
