@@ -2,16 +2,19 @@
   margin: 0;
   padding:0;
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
 }
+
 .grid-item {
   padding-bottom: 20px;
   font-size: 30px;
   text-align: center;
 }
+
 .item1 {
   max-width:70%;
   height:auto;
@@ -19,25 +22,26 @@
   padding-bottom: 20px;
   font-size: 30px;
   text-align: center;
- 
 }
+
 .item2 {
   padding-right: 10%;
   padding-bottom: 20px;
   font-size: 30px;
-  text-align: center;
 }
+
 .item3 {
   padding-left: 10%;
   padding-bottom: 20px;
   font-size: 30px;
-  text-align: center;
 }
+
 .item4 {
   max-width:70%;
   height:auto;
   padding-right: 10%;
 }
+
 header {
   background-color: #535044;
   font-size: 2.5vw;
@@ -47,6 +51,7 @@ header {
   padding-bottom: 20px;
   border-bottom: 10px solid #d6d2c0;
 }
+
 .menu {
   width: 25vw;
   display: flex;
@@ -54,75 +59,60 @@ header {
   justify-content: space-between;
   padding-bottom: 2px;
 }
+
 body {
   background-color: white;  
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  }
-  h1 {
-    font-size: 40px;
-    text-align: center;
-    padding:2%;
-    color: #535044;
-  }
-  h2 {
-    font-size: 25px;
-    color: #535044;
-    padding-bottom: 20px;
-  }
-  p {
-    font-size: 20px;
-    text-align: left;
-    line-height: 1.5;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  ol {
-    list-style-position: inside;
-  }
-  .profilbillede {
-    max-width:35%;
-    height:auto;
-  }
-  .logo {
-    max-width: 100%;
-    height: auto;
-  }
-  .billedehøjre {
-    float:right;
-  }
-  .billedevenstre {
-    float: left;
-  }
-  .gifs {
-    width: 400px;
-    height: 300px;
-  }
-  a:link {
-    text-decoration: none;
-    color:white
-  }
-  
-  a:visited {
-    text-decoration: none;
-    color:white
-  }
-  
-  a:hover {
-    text-decoration: none;
-    color:white
-  }
-  
-  a:active {
-    text-decoration: none;
-    color:white
-  }
+}
 
-  .maintext{
-    float: right;
-    padding-top: 50px;
+h1 {
+  font-size: 40px;
+  text-align: center;
+  padding:2%;
+  color: #535044;
+}
 
-  }
+h2 {
+  font-size: 25px;
+  color: #535044;
+  padding-bottom: 20px;
+  text-align: center;
+}
 
-  hr {
-    border: 6px solid #d6d2c0;
-  }
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+a:link {
+  text-decoration: none;
+  color:white
+}
+  
+a:visited {
+  text-decoration: none;
+  color:white
+}
+  
+a:hover {
+  text-decoration: none;
+  color:white
+}
+  
+a:active {
+  text-decoration: none;
+  color:white
+}
+
+footer {
+  text-align: center;
+  background-color: #535044;
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 20px;
+  margin-top: 20px;
+  font-style: italic;
+}
