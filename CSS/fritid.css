@@ -43,13 +43,13 @@
 }
 
 header {
-  background-color: #535044;
+  background-color: #444953;
   font-size: 2.5vw;
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  border-bottom: 10px solid #d6d2c0;
+  border-bottom: 15px solid #C0C7D6;
 }
 
 .menu {
@@ -69,12 +69,12 @@ h1 {
   font-size: 45px;
   text-align: center;
   padding:2%;
-  color: #535044;
+  color: #444953;
 }
 
 h2 {
   font-size: 30px;
-  color: #535044;
+  color: #444953;
   padding-bottom: 20px;
   text-align: center;
 }
@@ -112,14 +112,14 @@ a:active {
 
 footer {
   text-align: center;
-  background-color: #535044;
+  background-color: #444953;
   color: white;
   font-size: 22px;
   line-height: 1.5;
   padding: 20px;
   margin-top: 20px;
   font-style: italic;
-  border-top: 10px solid #d6d2c0;
+  border-top: 15px solid #C0C7D6;
 }
 
 .footerlink {
